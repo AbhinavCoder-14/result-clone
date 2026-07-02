@@ -13,7 +13,7 @@ const studentInfo = {
 
 const results = [
     {
-      sem: 3,
+      sem : 4,
       code: "ES201",
       subject: "COMPUTATIONAL METHODS",
       internal: 32,
@@ -21,7 +21,7 @@ const results = [
       total: 47,
     },
     {
-      sem: 3,
+      sem : 4,
       code: "HS203",
       subject: "INDIAN KNOWLEDGE SYSTEM",
       internal: "-",
@@ -29,7 +29,7 @@ const results = [
       total: 60,
     },
     {
-      sem: 3,
+      sem : 4,
       code: "ECC205",
       subject: "SIGNAL AND SYSTEM",
       internal: 28,
@@ -37,7 +37,7 @@ const results = [
       total: 43,
     },
     {
-      sem: 3,
+      sem : 4,
       code: "ECC207",
       subject: "DIGITAL LOGIC AND COMPUTER DESIGN",
       internal: 31,
@@ -45,7 +45,7 @@ const results = [
       total: 50,
     },
     {
-      sem: 3,
+      sem : 4,
       code: "ECC209",
       subject: "ANALOG COMMUNICATIONS",
       internal: 29,
@@ -53,7 +53,7 @@ const results = [
       total: 47,
     },
     {
-      sem: 3,
+      sem : 4,
       code: "ECC211",
       subject: "ANALOG ELECTRONICS-I",
       internal: 28,
@@ -61,7 +61,7 @@ const results = [
       total: 44,
     },
     {
-      sem: 3,
+      sem : 4,
       code: "ES251",
       subject: "COMPUTATIONAL METHODS LAB",
       internal: 30,
@@ -69,7 +69,7 @@ const results = [
       total: 82,
     },
     {
-      sem: 3,
+      sem : 4,
       code: "ECC253",
       subject: "DIGITAL LOGIC AND COMPUTER DESIGN LAB",
       internal: 28,
@@ -77,7 +77,7 @@ const results = [
       total: 78,
     },
     {
-      sem: 3,
+      sem : 4,
       code: "ECC255",
       subject: "ANALOG COMMUNICATIONS LAB",
       internal: 32,
@@ -85,7 +85,7 @@ const results = [
       total: 83,
     },
     {
-      sem: 3,
+      sem : 4,
       code: "ECC257",
       subject: "ANALOG ELECTRONICS-I LAB",
       internal: 28,
@@ -93,7 +93,7 @@ const results = [
       total: 72,
     },
     {
-      sem: 3,
+      sem : 4,
       code: "ECC259",
       subject: "SIGNAL AND SYSTEM LAB",
       internal: 30,
@@ -158,8 +158,8 @@ export default function ResultPage() {
                                     <Td>{row.internal}</Td>
                                     <Td>{row.external}</Td>
                                     <Td className="font-semibold text-black">{row.total}</Td>
-                                    <Td>12, 2025</Td>
-                                    <Td>2026-01-22</Td>
+                                    <Td>6, 2026</Td>
+                                    <Td>2026-07-01</Td>
                                 </tr>
                             ))}
                         </tbody>
